@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		
+		<title>HTML5 Example</title>
+
+		<script type="text/javascript">
+
+			function init() {
+				var can = document.getElementById('canvas');
+				var ctx = can.getContext('2d');
+				ctx.font = '40px Inconsolata';
+				ctx.fillText('The big bang theory', 40, 40);
+				ctx.strokeStyle = 'red';
+			}
+
+		</script>
+
+	</head>
+
+	<body onload="init()">
+		
+		<canvas id="canvas" width="800" height="600">
+			
+		</canvas>
+		
+	</body>
+
+</html>
